@@ -1,0 +1,44 @@
+[1.865s] Invoking command in '/home/dorian/sim_ws/src/f1tenth_gym_ros': PYTHONPATH=/home/dorian/sim_ws/src/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dorian/sim_ws/src/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/f1tenth_gym_ros build --build-base /home/dorian/sim_ws/src/build/f1tenth_gym_ros/build install --record /home/dorian/sim_ws/src/build/f1tenth_gym_ros/install.log --single-version-externally-managed install_data
+[2.190s] running egg_info
+[2.191s] creating ../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info
+[2.192s] writing ../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO
+[2.193s] writing dependency_links to ../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt
+[2.193s] writing entry points to ../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt
+[2.194s] writing requirements to ../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt
+[2.194s] writing top-level names to ../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt
+[2.197s] writing manifest file '../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[2.270s] reading manifest file '../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[2.271s] writing manifest file '../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[2.272s] running build
+[2.272s] running build_py
+[2.273s] creating /home/dorian/sim_ws/src/build/f1tenth_gym_ros/build
+[2.273s] creating /home/dorian/sim_ws/src/build/f1tenth_gym_ros/build/lib
+[2.273s] creating /home/dorian/sim_ws/src/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros
+[2.273s] copying f1tenth_gym_ros/gym_bridge.py -> /home/dorian/sim_ws/src/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros
+[2.274s] copying f1tenth_gym_ros/__init__.py -> /home/dorian/sim_ws/src/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros
+[2.274s] running install
+[2.275s] running install_lib
+[2.276s] creating /home/dorian/sim_ws/src/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros
+[2.277s] copying /home/dorian/sim_ws/src/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros/gym_bridge.py -> /home/dorian/sim_ws/src/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros
+[2.277s] copying /home/dorian/sim_ws/src/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros/__init__.py -> /home/dorian/sim_ws/src/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros
+[2.278s] byte-compiling /home/dorian/sim_ws/src/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros/gym_bridge.py to gym_bridge.cpython-38.pyc
+[2.284s] byte-compiling /home/dorian/sim_ws/src/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros/__init__.py to __init__.cpython-38.pyc
+[2.284s] running install_data
+[2.284s] creating /home/dorian/sim_ws/src/install/f1tenth_gym_ros/share/ament_index
+[2.284s] creating /home/dorian/sim_ws/src/install/f1tenth_gym_ros/share/ament_index/resource_index
+[2.286s] creating /home/dorian/sim_ws/src/install/f1tenth_gym_ros/share/ament_index/resource_index/packages
+[2.286s] copying resource/f1tenth_gym_ros -> /home/dorian/sim_ws/src/install/f1tenth_gym_ros/share/ament_index/resource_index/packages
+[2.286s] copying package.xml -> /home/dorian/sim_ws/src/install/f1tenth_gym_ros/share/f1tenth_gym_ros
+[2.286s] creating /home/dorian/sim_ws/src/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[2.287s] copying launch/gym_bridge_launch.py -> /home/dorian/sim_ws/src/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[2.287s] copying launch/ego_racecar.xacro -> /home/dorian/sim_ws/src/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[2.287s] copying launch/opp_racecar.xacro -> /home/dorian/sim_ws/src/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[2.288s] copying launch/gym_bridge.rviz -> /home/dorian/sim_ws/src/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[2.288s] creating /home/dorian/sim_ws/src/install/f1tenth_gym_ros/share/f1tenth_gym_ros/config
+[2.288s] copying config/sim.yaml -> /home/dorian/sim_ws/src/install/f1tenth_gym_ros/share/f1tenth_gym_ros/config
+[2.289s] running install_egg_info
+[2.291s] Copying ../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/dorian/sim_ws/src/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info
+[2.293s] running install_scripts
+[2.324s] Installing gym_bridge script to /home/dorian/sim_ws/src/install/f1tenth_gym_ros/lib/f1tenth_gym_ros
+[2.327s] writing list of installed files to '/home/dorian/sim_ws/src/build/f1tenth_gym_ros/install.log'
+[2.374s] Invoked command in '/home/dorian/sim_ws/src/f1tenth_gym_ros' returned '0': PYTHONPATH=/home/dorian/sim_ws/src/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dorian/sim_ws/src/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/f1tenth_gym_ros build --build-base /home/dorian/sim_ws/src/build/f1tenth_gym_ros/build install --record /home/dorian/sim_ws/src/build/f1tenth_gym_ros/install.log --single-version-externally-managed install_data
